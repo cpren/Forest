@@ -1,15 +1,10 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_leftmotor" id="43" inline="true" x="30" y="60">
-    <value name="MOVLEFT">
-      <block type="math_number" id="50">
-        <field name="NUM">100</field>
-      </block>
-    </value>
+  <block type="movement_right" id="60" x="9" y="134">
     <next>
       <block type="robot_delay" id="16" inline="true">
         <value name="DELAY">
           <block type="math_number" id="23">
-            <field name="NUM">600</field>
+            <field name="NUM">800</field>
           </block>
         </value>
         <next>
